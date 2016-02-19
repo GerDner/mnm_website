@@ -3,27 +3,84 @@
 {namespace ts=TYPO3\TypoScript\ViewHelpers}
 <html>
 <head>
-	<f:section name="stylesheets">
-		<!-- Put your stylesheet inclusions here, they will be included in your website by TypoScript -->
-	</f:section>
-	<f:section name="headScripts">
-		<!-- Put your scripts inclusions for the head here, they will be included in your website by TypoScript -->
-	</f:section>
+    <f:section name="stylesheets">
+        <!-- Material Design Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="{f:uri.resource(path: 'css/bootstrap.min.css' package: 'Bucher.Maltnmore')}"
+              media="all"/>
+
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="{f:uri.resource(path: 'css/mdb.css' package: 'Bucher.Maltnmore')}" media="all"/>
+
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="{f:uri.resource(path: 'css/op-styles.css' package: 'Bucher.Maltnmore')}"
+              media="all"/>
+
+    </f:section>
+    <f:section name="headScripts">
+        <!-- Put your scripts inclusions for the head here, they will be included in your website by TypoScript -->
+    </f:section>
 </head>
 <body>
 <f:section name="body">
-	<nav class="menu">
-		{parts.menu -> f:format.raw()}
-	</nav>
-	<nav class="breadcrumb">
-		{parts.breadcrumb -> f:format.raw()}
-	</nav>
-	<div class="content">
-		{content.main -> f:format.raw()}
-	</div>
+
+    <!--SideNav-->
+    <div id="sidenav-com">
+        <nav class="menu">
+            {parts.menu -> f:format.raw()}
+        </nav>
+    </div>
+    <!--/.SideNav-->
+    <!--/.Featured Image-->
+
+    <!--Main container-->
+    <main>
+        <div class="container-fluid">
+            <div class="row main-wrapper">
+                <f:if condition="{node.nodeData.parentPath} == '/sites'">
+                    <f:then>
+                        <f:render partial="header-image"/>
+                    </f:then>
+                    <f:else>
+                        <div class="divider-new">{node.properties.title}</div>
+                    </f:else>
+                </f:if>
+                <div class="col-lg-12">
+
+                    {content.main -> f:format.raw()}
+                </div>
+            </div>
+        </div>
+    </main>
 </f:section>
 <f:section name="bodyScripts">
-	<!-- Put your scripts inclusions for the end of the body here, they will be included in your website by TypoScript -->
+    <!-- JQuery -->
+    <script type="text/javascript"
+            src="{f:uri.resource(path: 'js/jquery.min.js' package: 'Bucher.Maltnmore')}"></script>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+            src="{f:uri.resource(path: 'js/bootstrap.min.js' package: 'Bucher.Maltnmore')}"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="{f:uri.resource(path: 'js/mdb.js' package: 'Bucher.Maltnmore')}"></script>
+    <!--Smooth scroll-->
+    <script type="text/javascript"
+            src="{f:uri.resource(path: 'js/smooth-scroll.js' package: 'Bucher.Maltnmore')}"></script>
+    <script>
+        // Initialize collapse button
+        $(".button-collapse").sideNav();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        $('.collapsible').collapsible();
+        new WOW().init();
+    </script>
+
 </f:section>
 </body>
 </html>

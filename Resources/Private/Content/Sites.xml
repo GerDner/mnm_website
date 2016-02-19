@@ -2,34 +2,805 @@
 <root>
  <site name="Maltnmore" state="1" siteResourcesPackageKey="Bucher.Maltnmore" siteNodeName="maltnmore">
   <nodes formatVersion="2.0">
-   <node nodeName="maltnmore">
-    <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-     
-     </dimensions>
+   <node identifier="fc426852-ff4f-4e0c-af10-2f74e75f66dc" nodeName="maltnmore">
+    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2016-02-19T11:45:01+00:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T12:41:52+00:00</lastModificationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
+      <canonicalLink __type="string"></canonicalLink>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="TYPO3.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-      
-      </dimensions>
+    <node identifier="90def97f-ecea-4d69-aab2-983047afb1f6" nodeName="aside">
+     <variant sortingIndex="650" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:41:52+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T12:41:52+00:00</lastModificationDateTime>
+      <properties/>
      </variant>
-     <node nodeName="text1">
-      <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-       
-       </dimensions>
+     <node identifier="3584b38f-6863-4a57-a5b2-639dcaeea219" nodeName="node-56c70d9eea621">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
        <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:42:06+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
+        <title __type="string">&lt;h3&gt;Aktuelles&lt;/h3&gt;</title>
        </properties>
       </variant>
+     </node>
+    </node>
+    <node identifier="21e8353f-108e-423d-a021-ce6b896abd7c" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T11:45:01+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T11:45:01+00:00</lastModificationDateTime>
+      <properties/>
+     </variant>
+    </node>
+    <node identifier="6a02c40d-0f94-40b2-be85-197c44010bab" nodeName="node-56c70613a8d1b">
+     <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:09:55+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">ueber-uns</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Über uns</title>
+       <titleOverride __type="string"></titleOverride>
+       <metaDescription __type="string"></metaDescription>
+       <metaKeywords __type="string"></metaKeywords>
+       <metaRobotsNoindex __type="boolean"></metaRobotsNoindex>
+       <metaRobotsNofollow __type="boolean"></metaRobotsNofollow>
+       <twitterCardType __type="string"></twitterCardType>
+       <twitterCardCreator __type="string"></twitterCardCreator>
+       <twitterCardTitle __type="string"></twitterCardTitle>
+       <twitterCardDescription __type="string"></twitterCardDescription>
+       <twitterCardImage __type="string"></twitterCardImage>
+       <openGraphType __type="string"></openGraphType>
+       <openGraphTitle __type="string"></openGraphTitle>
+       <openGraphDescription __type="string"></openGraphDescription>
+       <openGraphImage __type="string"></openGraphImage>
+       <xmlSitemapChangeFrequency __type="string"></xmlSitemapChangeFrequency>
+       <xmlSitemapPriority __type="string"></xmlSitemapPriority>
+       <layout __type="string"></layout>
+       <subpageLayout __type="string"></subpageLayout>
+      </properties>
+     </variant>
+     <node identifier="885d9460-1f70-f634-439d-e4c320fe3943" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:09:55+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="4478e756-e582-4ed5-9762-5ce409c3298c" nodeName="node-56c723f3f32ed">
+       <variant sortingIndex="700" workspace="live" nodeType="TYPO3.Neos.NodeTypes:ThreeColumn" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:23+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:49:52+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:49:52+00:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">33-33-33</layout>
+        </properties>
+       </variant>
+       <node identifier="5e3a5345-dce3-3c36-c863-0080a50988f9" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:23+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="fe67ec5f-acb3-47f4-b1c1-13c08e31329f" nodeName="node-56c7213fba878">
+         <variant sortingIndex="200" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:28+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Lorem Ipsum dolor sit Lorem Ipsum dolor sit ametLorem Ipsum dolor sit ametametLorem Ipsum dolor sit amet&lt;br/&gt;&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="68cfb024-7a28-47ce-a73f-e268824d82c6" nodeName="node-56c7227e0adec">
+         <variant sortingIndex="300" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:30+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="745b6eaf-36ff-4b5e-b958-d439b5bda0a0" nodeName="node-56c732692070b">
+         <variant sortingIndex="400" workspace="live" nodeType="Bucher.Maltnmore:Post" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:05+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:46+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:45+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit amet&lt;br/&gt;&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="3632c938-955e-4efa-966a-b1abf1282db3" nodeName="node-56c7327a5a6c6">
+         <variant sortingIndex="500" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:22+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:31+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:31+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="ee5c8f4e-024c-b655-2472-84898b80183d" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:24+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="964e9d42-4901-4c46-a008-798d88fce8fb" nodeName="node-56c7227e0adec">
+         <variant sortingIndex="800" workspace="live" nodeType="Bucher.Maltnmore:Post" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:08+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:36+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:36+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolordolordolordolordolordolordolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="bbdc76d3-22e4-48fd-8be2-892c4539404a" nodeName="node-56c7228173edb">
+         <variant sortingIndex="400" workspace="live" nodeType="Bucher.Maltnmore:Post" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:33+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:49:52+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:49:52+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor sit ametLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametLorem Ipsum dolor sit amet&lt;br/&gt;&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="bc49241c-e7ca-4683-ba61-40efe4b6a47c" nodeName="node-56c72286c7110">
+         <variant sortingIndex="700" workspace="live" nodeType="Bucher.Maltnmore:Post" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:40+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:46+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:45+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="f8ae991c-1cef-4add-a660-bbf1f85378b7" nodeName="node-56c7326f8cc5f">
+         <variant sortingIndex="900" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:11+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:21+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:21+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="870f40b5-e64b-2702-c8d4-9f3a8d61d768" nodeName="column2">
+        <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:24+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="0c15d57e-cfc7-4ae5-974e-792d1a903faa" nodeName="node-56c7227e0adec">
+         <variant sortingIndex="700" workspace="live" nodeType="Bucher.Maltnmore:Post" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:14+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:55+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:25:55+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor Dolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit ametDolor sit AmetLorem Ipsum dolor sit amet amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="562b10ea-e457-4f86-ae10-f6fc3621d4d7" nodeName="node-56c722834b032">
+         <variant sortingIndex="500" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:35+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit Amet Lorem Ipsum dolor sit ametLorem Ipsum dolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="d503ea1f-a9fa-41c1-928b-297baaa86609" nodeName="node-56c72285160c5">
+         <variant sortingIndex="600" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:17:37+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:18+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T14:18:17+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmLorem Ipsum dolor sit ametLorem Ipsum dolor sit ametLorem Ipsum dolor sit ametLorem Ipsum dolor sit ametet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="1b8d0cb9-d719-4c9e-b5f5-9088ac278fb6" nodeName="node-56c73273dab3a">
+         <variant sortingIndex="1100" workspace="live" nodeType="Bucher.Maltnmore:Post" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:19+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:21+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:19:21+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h3&gt;Lorem Ipsum&lt;/h3&gt;&lt;p&gt;Dolor sit AmetLorem Ipsum dolor sit amet&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="571d35f9-2e98-4e79-b335-897103fb2d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;571d35f9-2e98-4e79-b335-897103fb2d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;ueberuns_Vorstand_Kilt_2008.jpg&quot;,&quot;hash&quot;:&quot;d834d69b4e79fe3c041269f50ffd31a398840997&quot;,&quot;__identity&quot;:&quot;16abcb30-c3ec-4a5c-8951-5d6b12d41ef2&quot;}}</image>
+           <alternativeText __type="string"></alternativeText>
+           <title __type="string"></title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean"></hasCaption>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="f920f539-9f6f-4579-a887-c56d33888109" nodeName="node-56c70828015a6">
+     <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:18:48+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:18:51+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:18:51+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">termine</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Termine</title>
+      </properties>
+     </variant>
+     <node identifier="08f140c3-e930-dd3c-6bf8-e8a3fac9ec1f" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:18:48+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:18:51+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:18:51+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="5e33e203-5a12-473f-8c62-5bf021611087" nodeName="node-56c738759f3cf">
+       <variant sortingIndex="600" workspace="live" nodeType="Bucher.Maltnmore:Card" version="12" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:44:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:53:13+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:53:12+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Beschreibung - was passiert an diesem Termin?&lt;/p&gt;&lt;p&gt;Gibt es Infos welche interessant sind?&lt;/p&gt;&lt;p&gt;Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet &lt;/p&gt;</text>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <title __type="string">Lorem Ipsum</title>
+         <image __type="string"></image>
+         <alternativeText __type="string"></alternativeText>
+         <link __type="string"></link>
+         <hasCaption __type="boolean"></hasCaption>
+         <date __type="object" __classname="DateTime">2016-02-20T15:47:04+00:00</date>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="a3bcfd75-8473-48f4-9182-730d89707602" nodeName="node-56c739dd9843a">
+       <variant sortingIndex="700" workspace="live" nodeType="Bucher.Maltnmore:Card" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:50:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:53:22+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:53:22+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Beschreibung - was passiert an diesem Termin?&lt;/p&gt;&lt;p&gt;Gibt es Infos welche interessant sind?&lt;/p&gt;&lt;p&gt;Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet &lt;/p&gt;</text>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <title __type="string">Lorem Ipsum</title>
+         <image __type="string"></image>
+         <alternativeText __type="string"></alternativeText>
+         <link __type="string"></link>
+         <hasCaption __type="boolean"></hasCaption>
+         <date __type="object" __classname="DateTime">2016-02-20T15:47:04+00:00</date>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="c951bd32-9770-48bb-a24f-9b6e91caf5ce" nodeName="node-56c739df70db2">
+       <variant sortingIndex="800" workspace="live" nodeType="Bucher.Maltnmore:Card" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:50:55+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:53:22+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:53:22+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Beschreibung - was passiert an diesem Termin?&lt;/p&gt;&lt;p&gt;Gibt es Infos welche interessant sind?&lt;/p&gt;&lt;p&gt;Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet &lt;/p&gt;</text>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <title __type="string">Lorem Ipsum</title>
+         <image __type="string"></image>
+         <alternativeText __type="string"></alternativeText>
+         <link __type="string"></link>
+         <hasCaption __type="boolean"></hasCaption>
+         <date __type="object" __classname="DateTime">2016-02-20T15:47:04+00:00</date>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="a3897057-b035-486b-90fe-5a2fd9284e0e" nodeName="node-56c73c03ab310">
+       <variant sortingIndex="900" workspace="live" nodeType="Bucher.Maltnmore:Card" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:03+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:10+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:10+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Beschreibung - was passiert an diesem Termin?&lt;/p&gt;&lt;p&gt;Gibt es Infos welche interessant sind?&lt;/p&gt;&lt;p&gt;Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet &lt;/p&gt;</text>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <title __type="string">Lorem Ipsum</title>
+         <image __type="string"></image>
+         <alternativeText __type="string"></alternativeText>
+         <link __type="string"></link>
+         <hasCaption __type="boolean"></hasCaption>
+         <date __type="object" __classname="DateTime">2016-02-20T15:47:04+00:00</date>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="75b516bd-18bf-4bf4-b4c1-3554188543b3" nodeName="node-56c73c0538f4b">
+       <variant sortingIndex="1000" workspace="live" nodeType="Bucher.Maltnmore:Card" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:05+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:10+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:10+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Beschreibung - was passiert an diesem Termin?&lt;/p&gt;&lt;p&gt;Gibt es Infos welche interessant sind?&lt;/p&gt;&lt;p&gt;Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet &lt;/p&gt;</text>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <title __type="string">Lorem Ipsum</title>
+         <image __type="string"></image>
+         <alternativeText __type="string"></alternativeText>
+         <link __type="string"></link>
+         <hasCaption __type="boolean"></hasCaption>
+         <date __type="object" __classname="DateTime">2016-02-20T15:47:04+00:00</date>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="5430ad10-3364-4990-a600-1f3cee0cce93" nodeName="node-56c73c0739371">
+       <variant sortingIndex="1100" workspace="live" nodeType="Bucher.Maltnmore:Card" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:07+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:10+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:00:10+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Beschreibung - was passiert an diesem Termin?&lt;/p&gt;&lt;p&gt;Gibt es Infos welche interessant sind?&lt;/p&gt;&lt;p&gt;Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet &lt;/p&gt;</text>
+         <caption __type="string"></caption>
+         <alignment __type="string"></alignment>
+         <title __type="string">Lorem Ipsum</title>
+         <image __type="string"></image>
+         <alternativeText __type="string"></alternativeText>
+         <link __type="string"></link>
+         <hasCaption __type="boolean"></hasCaption>
+         <date __type="object" __classname="DateTime">2016-02-20T15:47:04+00:00</date>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="4b0f4013-1837-4771-ba40-216d8ebe57d1" nodeName="node-56c7083e2d972">
+     <variant sortingIndex="400" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:10+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:06:21+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:06:21+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">shop</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Shop</title>
+      </properties>
+     </variant>
+     <node identifier="3c50387c-86bd-93a3-21db-e392a7869218" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:10+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:06:21+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:06:21+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="5166326e-3f56-415d-b744-fdb0660b9236" nodeName="node-56c73c4dc2a34">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:ThreeColumn" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:17+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">4</layout>
+        </properties>
+       </variant>
+       <node identifier="c5e6d17e-ebab-f6bd-0b73-648ce0974b9c" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:17+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="b979fbf4-1b4c-4c1a-8666-1b370b10fad2" nodeName="node-56c73c53377bc">
+         <variant sortingIndex="100" workspace="live" nodeType="Bucher.Maltnmore:Shopitem" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:23+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:12+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:12+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Glencairn Glas&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="af7faa1a-74f0-4bf4-a66b-d1055117080d" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;af7faa1a-74f0-4bf4-a66b-d1055117080d&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;61FKdo3LJYL._SL1300_.jpg&quot;,&quot;hash&quot;:&quot;0b899caf3c6e0b7c3bb29fdf8b992817a5e2efd5&quot;,&quot;__identity&quot;:&quot;7e5fd031-e31e-421a-9b40-50cd41a5adfb&quot;}}</image>
+           <alternativeText __type="string">Alt Text</alternativeText>
+           <title __type="string">5</title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="47ba80f3-b8da-4ac1-8338-ef7a8e766cf9" nodeName="node-56c73d419d12e">
+         <variant sortingIndex="200" workspace="live" nodeType="Bucher.Maltnmore:Shopitem" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:21+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:32+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:32+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Glencairn Glas&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="af7faa1a-74f0-4bf4-a66b-d1055117080d" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;af7faa1a-74f0-4bf4-a66b-d1055117080d&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;61FKdo3LJYL._SL1300_.jpg&quot;,&quot;hash&quot;:&quot;0b899caf3c6e0b7c3bb29fdf8b992817a5e2efd5&quot;,&quot;__identity&quot;:&quot;7e5fd031-e31e-421a-9b40-50cd41a5adfb&quot;}}</image>
+           <alternativeText __type="string">Alt Text</alternativeText>
+           <title __type="string">5</title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="85c90e85-014e-2cef-6390-f374d77d2124" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:17+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="9b4c83d4-5869-4046-843d-abb4d45adfac" nodeName="node-56c73c53377bc">
+         <variant sortingIndex="100" workspace="live" nodeType="Bucher.Maltnmore:Shopitem" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:24+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:06:21+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:06:21+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Poloshirt&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="ec4ba2b6-cead-4f6e-abcd-7825b3f3dbbc" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;ec4ba2b6-cead-4f6e-abcd-7825b3f3dbbc&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;b620ny_klein.jpg&quot;,&quot;hash&quot;:&quot;efb0d2920dfbe9aef720fff2c30e8f2ac6a5964c&quot;,&quot;__identity&quot;:&quot;aea102a4-2cda-4beb-9502-f52170b975d7&quot;}}</image>
+           <alternativeText __type="string">Alt Text</alternativeText>
+           <title __type="string">25</title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="1fc7d8e5-9de1-4d25-85f3-3d908ee321a2" nodeName="node-56c73d46b208f">
+         <variant sortingIndex="200" workspace="live" nodeType="Bucher.Maltnmore:Shopitem" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:26+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:32+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:32+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Glencairn Glas&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="af7faa1a-74f0-4bf4-a66b-d1055117080d" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;af7faa1a-74f0-4bf4-a66b-d1055117080d&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;61FKdo3LJYL._SL1300_.jpg&quot;,&quot;hash&quot;:&quot;0b899caf3c6e0b7c3bb29fdf8b992817a5e2efd5&quot;,&quot;__identity&quot;:&quot;7e5fd031-e31e-421a-9b40-50cd41a5adfb&quot;}}</image>
+           <alternativeText __type="string">Alt Text</alternativeText>
+           <title __type="string">5</title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="1b739b26-9eb8-1e0b-4f11-8721df9e0f33" nodeName="column2">
+        <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:17+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:01:20+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="2d0570f3-650e-43f2-9941-f36e538168aa" nodeName="node-56c73c53377bc">
+         <variant sortingIndex="100" workspace="live" nodeType="Bucher.Maltnmore:Shopitem" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:29+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:32+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:32+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Glencairn Glas&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="af7faa1a-74f0-4bf4-a66b-d1055117080d" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;af7faa1a-74f0-4bf4-a66b-d1055117080d&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;61FKdo3LJYL._SL1300_.jpg&quot;,&quot;hash&quot;:&quot;0b899caf3c6e0b7c3bb29fdf8b992817a5e2efd5&quot;,&quot;__identity&quot;:&quot;7e5fd031-e31e-421a-9b40-50cd41a5adfb&quot;}}</image>
+           <alternativeText __type="string">Alt Text</alternativeText>
+           <title __type="string">5</title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="da0c1065-0c26-4471-8a55-e452b57daea9" nodeName="node-56c73d4b3855d">
+         <variant sortingIndex="200" workspace="live" nodeType="Bucher.Maltnmore:Shopitem" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:31+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:42+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T16:05:42+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Glencairn Glas&lt;/p&gt;</text>
+           <caption __type="string"></caption>
+           <alignment __type="string"></alignment>
+           <image __type="object" __identifier="af7faa1a-74f0-4bf4-a66b-d1055117080d" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;af7faa1a-74f0-4bf4-a66b-d1055117080d&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;61FKdo3LJYL._SL1300_.jpg&quot;,&quot;hash&quot;:&quot;0b899caf3c6e0b7c3bb29fdf8b992817a5e2efd5&quot;,&quot;__identity&quot;:&quot;7e5fd031-e31e-421a-9b40-50cd41a5adfb&quot;}}</image>
+           <alternativeText __type="string">Alt Text</alternativeText>
+           <title __type="string">5</title>
+           <link __type="string"></link>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="ddaa86d1-7110-4187-99dc-d27e0f9acb04" nodeName="node-56c70847bd65a">
+     <variant sortingIndex="450" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:19+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">downloads</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Downloads</title>
+      </properties>
+     </variant>
+     <node identifier="899fbe14-8517-e1db-4fdd-6e7656f93c03" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:19+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="cfcf55ae-aef6-46e6-bd7f-de92df4ededc" nodeName="node-56c72bd3b97dc">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:AssetList" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:50:59+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastPublicationDateTime>
+        <properties>
+         <assets __type="array">
+          <entry0 __type="object" __identifier="5d14700e-0f91-41e3-b921-97f08464a407" __classname="TYPO3\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;5d14700e-0f91-41e3-b921-97f08464a407&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Download_1.pdf&quot;,&quot;hash&quot;:&quot;a5dc6c9ec451697ad8d4c2deb0091060711002ae&quot;,&quot;__identity&quot;:&quot;9a88bd06-b43c-4649-97d9-b59812008ca9&quot;}}</entry0>
+          <entry1 __type="object" __identifier="d8c77dbd-9b92-484a-9cc0-3985e5804713" __classname="TYPO3\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;d8c77dbd-9b92-484a-9cc0-3985e5804713&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Download 2.pdf&quot;,&quot;hash&quot;:&quot;eee8fbae77f0c8455c323c994398477b50096530&quot;,&quot;__identity&quot;:&quot;3f62ff50-2e1a-4791-8700-0240180bc5e4&quot;}}</entry1>
+         </assets>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="2d3cd4e1-4ccb-47c1-9349-444fa393e5e2" nodeName="node-56c72bf551f20">
+       <variant sortingIndex="50" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:51:33+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:18+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Lorem Ipsum Dolor sit amet&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="d90d7c2c-f325-4c27-83a3-bdee5898a1e9" nodeName="node-56c708524f25e">
+     <variant sortingIndex="500" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:30+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:05:36+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:05:36+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">kontakt</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Kontakt</title>
+      </properties>
+     </variant>
+     <node identifier="4888a0ae-c9a8-513c-793b-4fd262b49a88" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:30+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:05:36+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:05:36+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="0e59d539-6f9d-42fb-a0da-d6a2dc90e9ca" nodeName="node-56c72e1f9fc23">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Form" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T15:00:47+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:05:36+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:05:36+00:00</lastPublicationDateTime>
+        <properties>
+         <formIdentifier __type="string">contact-form</formIdentifier>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="2cfd884d-f5fa-400e-9fae-a33de1137f24" nodeName="node-56c7085c995a6">
+     <variant sortingIndex="550" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:40+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:10+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:10+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">impressum</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Impressum</title>
+      </properties>
+     </variant>
+     <node identifier="4f70a286-d119-5f6e-3efa-2d96670a2d9b" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-02-19T12:19:40+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:10+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:10+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="75e04a9c-49b2-47b3-bdd8-3b4fc1c96887" nodeName="node-56c72dbc9f303">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-02-19T14:59:08+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:10+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-02-19T15:56:10+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;&lt;b&gt;Anschrift:&lt;/b&gt;&lt;br/&gt;malt'n'more e.V.&lt;br/&gt;Postfach 11 42&lt;br/&gt;76333 Waldbronn&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Vertretungsberechtigter Vorstand:&lt;/b&gt;&lt;br/&gt;Manfred Bucher&lt;br/&gt;Thilo Schumacher&lt;br/&gt;&lt;br/&gt;&lt;b&gt;VR-Nummer:&lt;/b&gt;&lt;br/&gt;VR 360858 , AG Mannheim/Ettlingen&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Kontakt:  &lt;/b&gt;info [ät] malt-n-more.de&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Gestaltung und Inhalt:&lt;/b&gt; &lt;br/&gt;Thilo Schumacher&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Haftung:&lt;br/&gt;&lt;/b&gt;Obwohl bei der Zusammenstellung der auf unseren Webseiten enthaltenen Informationen größte Sorgfalt angewandt wurde, können wir nicht für deren Korrektheit garantieren. Die Inhalte können ohne vorherige Ankündigung geändert werden und wir gehen damit keinerlei Verpflichtung ein. &lt;br/&gt;&lt;br/&gt;&lt;b&gt;Für alle Links (insbesondere zu anderen Webseiten) gilt:&lt;br/&gt;&lt;/b&gt;Wir möchten ausdrücklich betonen, dass wir keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten haben. Aus diesem Grund distanzieren wir uns hiermit ausdrücklich von allen Inhalten gelinkter Seiten und machen uns ihre Inhalte nicht zu Eigen. Diese Erklärung gilt für alle Links und für alle Inhalte der Seiten, zu denen bei uns gelinkte Inhalte führen.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
    </node>

@@ -1,0 +1,46 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+
+<!-- SideNav slide-out button -->
+<a href="#" data-activates="slide-out" class="navbar-brand button-collapse"><i class="fa fa-bars"></i></a>
+<!--/. SideNav slide-out button -->
+
+<!-- Sidebar navigation -->
+<ul id="slide-out" class="side-nav dark-side-nav fixed">
+
+    <!-- Logo -->
+    <a href="#" class="waves-effect waves-light avatar-wrapper">
+        <img src="{f:uri.resource(path: 'img/logo.png' package: 'Bucher.Maltnmore')}" class="img-responsive ">
+    </a>
+    <!--/. Logo -->
+
+
+    <!-- Side navigation links -->
+    <ul class="collapsible collapsible-accordion">
+        <f:for each="{items}" as="item">
+            <li>
+                <neos:link.node additionalAttributes="{class: 'waves-effect waves-light'}" node="{item.node}"/>
+            </li>
+        </f:for>
+        <!-- <li><a href="#sec-intro" class="waves-effect waves-light">Home</a></li> -->
+
+    </ul>
+    <!--/. Side navigation links -->
+
+</ul>
+<!--/. Sidebar navigation -->
+
+<nav class="double-navbar navbar navbar-fixed-top transparent dark-side-nav" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header pull-left">
+            <!-- SideNav slide-out button -->
+            <div class="bc-min rgba-black-strong hidden-lg hidden-md">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars white-text"></i></a>
+            </div>
+            <!--/. SideNav slide-out button -->
+        </div>
+
+    </div>
+</nav>
+
+
+

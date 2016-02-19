@@ -1,0 +1,25 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace media=TYPO3\Media\ViewHelpers}
+<div class="">
+    <div class="card card-noborder hoverable wow card-reveal fadeInUp">
+        <div class="card-content">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="http://mdbootstrap.com/images/regular/nature/img%20(1).jpg"
+                         class="img-responsive z-depth-2">
+                </div>
+                <div class="col-sm-8">
+                    <h5 class="title">{neos:contentElement.editable(property: 'title')}</h5>
+                    <p>{neos:contentElement.editable(property: 'text')}</p>
+                    <hr>
+                    <ul class="list-inline item-details">
+                        <li><i class="fa fa-clock-o">
+                            <f:format.date>{date}</f:format.date>
+                        </i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

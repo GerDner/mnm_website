@@ -2,7 +2,71 @@
 # to your pages. You can add as many areas as you like, still only those that are rendered in your TypoScript and
 # Template are visible on your page.
 ---
-#'TYPO3.Neos.NodeTypes:Page':
-#  childNodes:
-#    'sidebar':
-#      type: 'TYPO3.Neos:ContentCollection'
+'Bucher.Maltnmore:Post':
+  superTypes:
+    'TYPO3.Neos.NodeTypes:TextWithImage': TRUE
+  ui:
+    label: 'Post'
+    group: 'general'
+
+'Bucher.Maltnmore:Shopitem':
+  superTypes:
+    'TYPO3.Neos.NodeTypes:TextWithImage': TRUE
+  ui:
+    label: 'Shopitem'
+    group: 'general'
+
+'Bucher.Maltnmore:Card':
+  superTypes:
+    'TYPO3.Neos.NodeTypes:TextWithImage': TRUE
+  ui:
+    label: 'Card'
+    group: 'general'
+    inspector:
+      groups:
+        general:
+          label: 'Termin'
+          position: 5
+
+  properties:
+    title:
+      type: 'string'
+    date:
+      type: 'DateTime'
+      ui:
+        label: 'Termin'
+        reloadIfChanged: TRUE
+        inspector:
+           group: 'general'
+
+'TYPO3.Neos.NodeTypes:ThreeColumn':
+  properties:
+    'layout':
+      defaultValue: '4'
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              '33-33-33': ~
+              '50-25-25': ~
+              '25-50-25': ~
+              '25-25-50': ~
+              '4':
+                label: '4'
+              '6-3-3':
+                label: '50% / 25% / 33%'
+              '3-6-3':
+                label: '25% / 50% / 25%'
+              '3-3-6':
+                label: '25% / 25% / 50%'
+'TYPO3.Neos.NodeTypes:Form':
+  properties:
+    formIdentifier:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              '': ~
+              # Maps to the file Sites/Vendor.Site/Resources/Private/Form/contact-form.yaml
+              'contact-form':
+                label: 'contact-form'
